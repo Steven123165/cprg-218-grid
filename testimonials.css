@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+section{
+    background-color: #95c263;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+section h2{
+    margin: 0;
+ 
+}
+section.col-span-2{
+   background-color: #e55812;
+   grid-column: span 2;
+   color: white;
+}
+section.col-span-4{
+    background-color: #e55812;
+    grid-column: span 2;
+    color: white;
+}
+section.row-span-2{
+    background-color: #0e4749;
+    grid-row: span 2;
+    color: white;
+}
+section.column-start-3{
+    grid-column-start: 3;
+}

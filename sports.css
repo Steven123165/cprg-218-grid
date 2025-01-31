@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color: rgb(255, 89, 0);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+section{
+    border: 1px solid silver;
+    background-color: aliceblue;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(250, 4, 4);
+}
+h2:hover{
+font-size: larger;    
+}
